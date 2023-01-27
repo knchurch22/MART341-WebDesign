@@ -1,0 +1,3 @@
+A directory is the same concept as a folder, but it should used especially when discussing file systems. Directories hold files in an organized folder.
+VCS are useful because they allow you to see past versions of your directory in case something breaks or you like an older version better. 
+My favorite artistic medium is paint because it is fun to work with. 
