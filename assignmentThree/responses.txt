@@ -1,0 +1,3 @@
+The DNS translates the domain name to a specific IP address. 
+A cookie us a file saved on your computer.
+The three essential parts of a URL are the protocol, domain, and path.
