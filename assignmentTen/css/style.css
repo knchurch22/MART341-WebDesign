@@ -1,0 +1,71 @@
+body {
+    background-color: #e8e163;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+div {
+    border: 5px solid #4888c8;
+    display: inline-block;
+}
+
+img {
+    border-radius: 50%;
+    border: 10px solid #e8e163;
+    height: 500px;
+    width: 500px;
+}
+
+.Inspiration {
+    background-color: #7fc5dc;
+    height: 700px;
+    width: 700px;
+    display: inline-block;
+}
+
+#Title {
+    font-size: 50px;
+    background-color: #173679;
+    color: #e8e163;
+    margin: auto;
+    padding: 20px;
+}
+
+.Palette {
+    background-color: white;
+    width: 800px;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.one {
+    background-color: #e8e163;
+}
+
+.dot.two {
+    background-color: #4888c8;
+}
+
+.dot.three {
+    background-color: #7fc5dc;
+}
+
+.dot.four {
+    background-color: #173679;
+}
+
+.dot.five {
+    background-color: #0b1e38;
+}
+
+#square {
+    height: 100px;
+    width: 100px;
+    background-color: #173679;
+    display: inline-block;
+}
