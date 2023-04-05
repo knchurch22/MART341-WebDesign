@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'PrincessSofia, cursive';
+    src: url("../fonts/PrincessSofia-Regular.ttf") format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AdventPro, sans-serif';
+    src: url('../fonts/AdventPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'AdventPro, sans-serif';
+    src: url('../fonts/AdventPro-Regular.ttf') format('truetype');
+    font-style: normal;
+}

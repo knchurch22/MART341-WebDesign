@@ -1,0 +1,94 @@
+body {
+    background-color: #f9968e;
+}
+   
+#header{
+    background-image: url("../images/coralImage.jpg");
+
+}
+
+h1{
+    color: white;
+    font-family: 'PrincessSofia, cursive';
+    font-size: 100px;
+    letter-spacing: 0.3em;
+}
+
+.titleBorder{
+    height: 200px;
+    background-color: #fddec2;
+    color: #fddec2;
+}
+
+#title:hover {
+    letter-spacing: 0.75em;
+    color: crimson;
+}
+
+.titleBorder:hover{
+    background-color: crimson;
+    color: #f9968e;
+    text-indent: 11em;
+    font-family: 'AdventPro, sans-serif';
+}
+
+.subtitle{
+    padding-top: 50px;
+    font-size: 75px;
+    margin: auto;
+}
+
+.content-paragraph{
+    margin: auto;
+    color: #333;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 640px;
+    font-family: 'AdventPro, sans-serif';
+}
+
+.content-paragraph::first-line{
+    font-size: 30px;
+    font-family: 'AdventPro, sans-serif';
+    line-height: 40px;
+}
+
+.poem-link{
+    text-decoration: none;
+    color: crimson;
+}
+
+.poem-link:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.poem-link:visited{
+    color: #fddec2;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 500px;
+}
+
+img {
+    border: 20px solid crimson;
+}
+
+#img-link:hover{
+    border: 50px solid crimson;
+}
+
+/* Applies "PrincessSofia" to everything:  */
+* {
+    font-family: 'PrincessSofia, cursive';
+}
+
+/* Applies "AdventPro" to everything:  */
+* {
+    font-family: 'AdventPro, sans-serif';
+}
