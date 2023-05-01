@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'BenchNine', sans-serif;
+    src: url("../fonts/BenchNine-Light.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'BenchNine', sans-serif;
+    src: url('../fonts/BenchNine-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Mr Dafoe', cursive;
+    src: url('../fonts/MrDafoe-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'BenchNine', sans-serif;
+    src: url("../fonts/BenchNine-Bold.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}

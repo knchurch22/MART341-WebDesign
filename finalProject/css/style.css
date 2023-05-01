@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float:unset;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (min-width: 768px) {
+    /* for desktop */
+    .col-1 {width: 10%}
+    .col-2 {width: 30%}
+    .col-3 {width: 30%}
+    .col-4 {width: 30%}
+    
+    div > img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* for mobile phones */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    div > img {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .menu-item {
+        text-align: center;
+    }
+}
+
+body {
+    background-color:unset;
+    font-family: unset;
+}
+
+/* Dropdown menu */
+.display-block {
+    display: block;
+}
+
+.menu-item {
+    font-size: unset;
+}
+
+.menu-item:hover {
+    background-color: unset;
+    color: unset;
+}
+
+/* Menu */
+#header {
+    position: fixed;
+    background-color: unset;
+    width: 99%;
+    height: 4em;
+    top: 0px;
+    font-family: unset;
+    text-align: center;
+}
+
+/* Set the layout of the menu*/
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    background-color: unset;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    min-width: 6em;
+    text-align: center;
+    
+}
+
+.menu-item:hover {
+    background-color: unset;
+    color: unset;
+}
+
+/*Styling my links*/
+.menu-item a {
+    color: unset;
+    text-decoration: none;
+}
